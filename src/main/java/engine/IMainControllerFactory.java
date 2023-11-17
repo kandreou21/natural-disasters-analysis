@@ -18,7 +18,7 @@ public class IMainControllerFactory {
 	 */
 	public IMainController createMainController(ControllerTypeEnum controllerType) {
 		if (controllerType == ControllerTypeEnum.DEFAULT)
-			return new XXXX(); //TODO implement a materialization of IMainController
+			return new MainController(); 
 		return null;
 	}
 }
